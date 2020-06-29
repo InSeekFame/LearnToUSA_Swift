@@ -13,6 +13,8 @@
 		1EC52A0E24A9647000D7D9A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EC52A0C24A9647000D7D9A9 /* Main.storyboard */; };
 		1EC52A1024A9647200D7D9A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EC52A0F24A9647200D7D9A9 /* Assets.xcassets */; };
 		1EC52A1324A9647200D7D9A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EC52A1124A9647200D7D9A9 /* LaunchScreen.storyboard */; };
+		1EC52A1C24A9660E00D7D9A9 /* TextFieldMoveVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC52A1A24A9660E00D7D9A9 /* TextFieldMoveVC.swift */; };
+		1EC52A1D24A9660E00D7D9A9 /* TextFieldMoveVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EC52A1B24A9660E00D7D9A9 /* TextFieldMoveVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1EC52A0F24A9647200D7D9A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EC52A1224A9647200D7D9A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EC52A1424A9647200D7D9A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EC52A1A24A9660E00D7D9A9 /* TextFieldMoveVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldMoveVC.swift; sourceTree = "<group>"; };
+		1EC52A1B24A9660E00D7D9A9 /* TextFieldMoveVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextFieldMoveVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				1EC52A0624A9647000D7D9A9 /* AppDelegate.swift */,
 				1EC52A0824A9647000D7D9A9 /* SceneDelegate.swift */,
 				1EC52A0A24A9647000D7D9A9 /* ViewController.swift */,
+				1EC52A1A24A9660E00D7D9A9 /* TextFieldMoveVC.swift */,
+				1EC52A1B24A9660E00D7D9A9 /* TextFieldMoveVC.xib */,
 				1EC52A0C24A9647000D7D9A9 /* Main.storyboard */,
 				1EC52A0F24A9647200D7D9A9 /* Assets.xcassets */,
 				1EC52A1124A9647200D7D9A9 /* LaunchScreen.storyboard */,
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EC52A1324A9647200D7D9A9 /* LaunchScreen.storyboard in Resources */,
+				1EC52A1D24A9660E00D7D9A9 /* TextFieldMoveVC.xib in Resources */,
 				1EC52A1024A9647200D7D9A9 /* Assets.xcassets in Resources */,
 				1EC52A0E24A9647000D7D9A9 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EC52A0B24A9647000D7D9A9 /* ViewController.swift in Sources */,
+				1EC52A1C24A9660E00D7D9A9 /* TextFieldMoveVC.swift in Sources */,
 				1EC52A0724A9647000D7D9A9 /* AppDelegate.swift in Sources */,
 				1EC52A0924A9647000D7D9A9 /* SceneDelegate.swift in Sources */,
 			);
