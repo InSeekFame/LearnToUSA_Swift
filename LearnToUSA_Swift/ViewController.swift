@@ -13,7 +13,11 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
-    var dataSource = ["TextFiled 跟随键盘上移"]
+    var dataSource = ["TextFiled 跟随键盘上移",
+                      "日历控件"]
+    
+    var vcList = [TextFieldMoveVC(),
+                  TestFSCalendarVC()]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,7 +39,7 @@ extension ViewController:UITableViewDelegate,UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let VC = TextFieldMoveVC()
+        let VC = vcList[indexPath.row]
         navigationController?.pushViewController(VC, animated: true)
     }
     

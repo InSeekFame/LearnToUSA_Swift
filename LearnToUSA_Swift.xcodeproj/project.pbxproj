@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11C4C60B304607AB4B9970B5 /* Pods_LearnToUSA_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC0C38DDFD79EA3FEBD51A94 /* Pods_LearnToUSA_Swift.framework */; };
+		1EAF8CED24AB7BD900F5CD69 /* TestFSCalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAF8CEB24AB7BD900F5CD69 /* TestFSCalendarVC.swift */; };
+		1EAF8CEE24AB7BD900F5CD69 /* TestFSCalendarVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EAF8CEC24AB7BD900F5CD69 /* TestFSCalendarVC.xib */; };
 		1EC52A0724A9647000D7D9A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC52A0624A9647000D7D9A9 /* AppDelegate.swift */; };
 		1EC52A0924A9647000D7D9A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC52A0824A9647000D7D9A9 /* SceneDelegate.swift */; };
 		1EC52A0B24A9647000D7D9A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC52A0A24A9647000D7D9A9 /* ViewController.swift */; };
@@ -18,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1EAF8CEB24AB7BD900F5CD69 /* TestFSCalendarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFSCalendarVC.swift; sourceTree = "<group>"; };
+		1EAF8CEC24AB7BD900F5CD69 /* TestFSCalendarVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestFSCalendarVC.xib; sourceTree = "<group>"; };
 		1EC52A0324A9647000D7D9A9 /* LearnToUSA_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnToUSA_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EC52A0624A9647000D7D9A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EC52A0824A9647000D7D9A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +33,9 @@
 		1EC52A1424A9647200D7D9A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1EC52A1A24A9660E00D7D9A9 /* TextFieldMoveVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldMoveVC.swift; sourceTree = "<group>"; };
 		1EC52A1B24A9660E00D7D9A9 /* TextFieldMoveVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextFieldMoveVC.xib; sourceTree = "<group>"; };
+		38180500209E8DD177C8E0E6 /* Pods-LearnToUSA_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnToUSA_Swift.debug.xcconfig"; path = "Target Support Files/Pods-LearnToUSA_Swift/Pods-LearnToUSA_Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		94BA099C5D31A8A82B71D41D /* Pods-LearnToUSA_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnToUSA_Swift.release.xcconfig"; path = "Target Support Files/Pods-LearnToUSA_Swift/Pods-LearnToUSA_Swift.release.xcconfig"; sourceTree = "<group>"; };
+		EC0C38DDFD79EA3FEBD51A94 /* Pods_LearnToUSA_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnToUSA_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11C4C60B304607AB4B9970B5 /* Pods_LearnToUSA_Swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14E36D6FE8F5B228C459FD98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC0C38DDFD79EA3FEBD51A94 /* Pods_LearnToUSA_Swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1EC529FA24A9647000D7D9A9 = {
 			isa = PBXGroup;
 			children = (
 				1EC52A0524A9647000D7D9A9 /* LearnToUSA_Swift */,
 				1EC52A0424A9647000D7D9A9 /* Products */,
+				45043224643A5859522B1E57 /* Pods */,
+				14E36D6FE8F5B228C459FD98 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,12 +84,23 @@
 				1EC52A0A24A9647000D7D9A9 /* ViewController.swift */,
 				1EC52A1A24A9660E00D7D9A9 /* TextFieldMoveVC.swift */,
 				1EC52A1B24A9660E00D7D9A9 /* TextFieldMoveVC.xib */,
+				1EAF8CEB24AB7BD900F5CD69 /* TestFSCalendarVC.swift */,
+				1EAF8CEC24AB7BD900F5CD69 /* TestFSCalendarVC.xib */,
 				1EC52A0C24A9647000D7D9A9 /* Main.storyboard */,
 				1EC52A0F24A9647200D7D9A9 /* Assets.xcassets */,
 				1EC52A1124A9647200D7D9A9 /* LaunchScreen.storyboard */,
 				1EC52A1424A9647200D7D9A9 /* Info.plist */,
 			);
 			path = LearnToUSA_Swift;
+			sourceTree = "<group>";
+		};
+		45043224643A5859522B1E57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38180500209E8DD177C8E0E6 /* Pods-LearnToUSA_Swift.debug.xcconfig */,
+				94BA099C5D31A8A82B71D41D /* Pods-LearnToUSA_Swift.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1EC52A1724A9647200D7D9A9 /* Build configuration list for PBXNativeTarget "LearnToUSA_Swift" */;
 			buildPhases = (
+				82924AF22E45A020ADA7F282 /* [CP] Check Pods Manifest.lock */,
 				1EC529FF24A9647000D7D9A9 /* Sources */,
 				1EC52A0024A9647000D7D9A9 /* Frameworks */,
 				1EC52A0124A9647000D7D9A9 /* Resources */,
+				E066BDD2AA6FE2E1087B95E8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EC52A1324A9647200D7D9A9 /* LaunchScreen.storyboard in Resources */,
+				1EAF8CEE24AB7BD900F5CD69 /* TestFSCalendarVC.xib in Resources */,
 				1EC52A1D24A9660E00D7D9A9 /* TextFieldMoveVC.xib in Resources */,
 				1EC52A1024A9647200D7D9A9 /* Assets.xcassets in Resources */,
 				1EC52A0E24A9647000D7D9A9 /* Main.storyboard in Resources */,
@@ -140,12 +173,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		82924AF22E45A020ADA7F282 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LearnToUSA_Swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E066BDD2AA6FE2E1087B95E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LearnToUSA_Swift/Pods-LearnToUSA_Swift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LearnToUSA_Swift/Pods-LearnToUSA_Swift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LearnToUSA_Swift/Pods-LearnToUSA_Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1EC529FF24A9647000D7D9A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1EC52A0B24A9647000D7D9A9 /* ViewController.swift in Sources */,
+				1EAF8CED24AB7BD900F5CD69 /* TestFSCalendarVC.swift in Sources */,
 				1EC52A1C24A9660E00D7D9A9 /* TextFieldMoveVC.swift in Sources */,
 				1EC52A0724A9647000D7D9A9 /* AppDelegate.swift in Sources */,
 				1EC52A0924A9647000D7D9A9 /* SceneDelegate.swift in Sources */,
@@ -290,6 +366,7 @@
 		};
 		1EC52A1824A9647200D7D9A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38180500209E8DD177C8E0E6 /* Pods-LearnToUSA_Swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -308,6 +385,7 @@
 		};
 		1EC52A1924A9647200D7D9A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94BA099C5D31A8A82B71D41D /* Pods-LearnToUSA_Swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
